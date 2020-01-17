@@ -1,0 +1,127 @@
+html,body{
+	width: 100%;
+	margin: 0;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: 55px;
+	background-color: rgb(41,189,224);
+	border-bottom: solid 2px rgb(116,212,235);
+}
+#tops{
+	position: relative;
+	width: 80px;
+	margin: 0 auto;
+	font-size: 20px;
+	display: block;
+	color: white;
+	top: 14.5px;
+}
+.lefts{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.rights{
+	position: absolute;
+	float: right;
+	top: 5.5px;
+	right: 5px;
+}
+.slgood{
+	top: 57px;
+	position: fixed;
+	width: 100%;
+	background-color: rgb(41,189,224);
+}
+.winner{
+	position: relative;
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+	top: 15px;
+}
+#conclusionOfVictory{
+	position: relative;
+	width: 312px;
+	font-size: 22px;
+	display: block;
+	margin: 20px auto;
+	color: rgb(255,200,101);
+}
+#statistics{
+	line-height: 1.4em;
+	word-spacing: 11px;
+	letter-spacing: 3px;
+	position: relative;
+	width: 312px;
+	display: block;
+	margin: 0 auto;
+	color: white;
+}
+#whiteBeiJing{
+	z-index: -1;
+	position: relative;
+	top: 422px;
+}
+ul{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 21px;
+	border-bottom: solid 1px #ddd;
+	list-style: none;
+}
+li{
+	width: 325px;
+	margin: 0 auto;
+}
+.ziju{
+	word-spacing: 6px;
+	letter-spacing: 2.5px;
+	color: #a6a6a6;
+	font-size: 17px;
+}
+.tianshu{
+	font-size: 21px;
+}
+.shijian{
+	position: relative;
+	font-size: 15px;
+	width: 72px;
+	margin: 0 auto;
+	top: 5px;
+	float: right;
+	color: #c7c7c7;
+	border: none;
+}
+footer{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	background-color: rgba(153,223,240,0.6);
+}
+#centered{
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+}
+button{
+	position: relative;
+	width: 135px;
+	height: 40px;
+	margin: 10px auto;
+	border-radius: 8px;
+	color: white;
+	font-size: 20px;
+	border: none;
+}
+#buttonLeft{
+	margin-right: 25px;
+	background-color: rgb(246,111,111);
+}
+#buttonRight{
+	background-color: rgb(251,180,53);
+}
